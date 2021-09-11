@@ -1,0 +1,280 @@
+@media screen and (max-width: 1410px) {
+    .descr-text {
+        font-size: 50px;
+    }
+
+    .section-about {
+        padding: 50px;
+    }
+
+    .about-title {
+        width: 200px;
+        height: 185px;
+        margin-right: 10px;
+        padding-top: 55px;
+        font-size: 36px;
+    }
+
+    .about-text {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+        padding: 20px;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+
+    /* Menu */
+
+    .menu {
+        width: 95%;
+    }
+
+    .menu-item > a {
+        font-size: 28px;
+    }
+
+    /* /Menu */
+}
+
+@media screen and (max-width: 1000px) {
+    .descr-text {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .play-text {
+        font-size: 35px;
+    }
+
+    .play-text::after {
+        width: 30px;
+        height: 35px;
+    }
+
+    .section-offers {
+        padding: 40px 70px 20px;
+    }
+
+    .title {
+        margin-bottom: 70px;
+        font-size: 54px;
+    }
+
+    .offers-item__title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .footer {
+        padding: 50px 70px 40px;
+    }
+
+    .footer-content__title {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .footer-content__info {
+        font-size: 21px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-bottom: 22px;
+    }
+
+    .logo img {
+        width: 60%;
+    }
+
+    .header {
+        padding: 30px 25px 30px;
+    }
+
+    /* Menu */
+
+    .menu-item > a {
+        font-size: 18px;
+    }
+
+    .nested-menu {
+        min-width: 80px;
+        font-size: 16px;
+    }
+
+    .nested-menu li {
+        margin-bottom: 6px;
+    }
+
+    /* /Menu */
+
+    .descr-text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .section-about {
+        padding: 30px 20px;
+    }
+
+    .about-title {
+        width: 68px;
+        height: 65px;
+        padding-top: 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .about-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .play-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .play-text::after {
+        width: 12.5px;
+        height: 13.5px;
+        left: calc(100% + 5px);
+    }
+
+    .section-offers {
+        padding: 20px 20px 5px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+        font-size: 27px;
+    }
+
+    .offers-item {
+        margin-bottom: 22px;
+    }
+
+    .offers-item__img {
+        margin-bottom: 16px;
+    }
+
+    .offers-item__title {
+        width: 65%;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        margin-bottom: 40px;
+    }
+
+    .footer-content__item:hover {
+        transform: translate(10px, 10px);
+    }
+
+    .footer-content__title {
+        margin-bottom: 22px;
+        font-size: 20px;
+    }
+
+    .footer-content__info {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
+
+    .contact-input,
+    textarea.contact-input {
+        margin-bottom: 10px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    textarea.contact-input {
+        height: 50px;
+    }
+
+    .contact-button {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .contact-button:hover {
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .header {
+        padding: 20px 16px 16px;
+    }
+
+    /* Menu */
+
+    .menu {
+        display: none;
+    }
+    
+    .menu-hide {
+        display: block;
+    }
+
+    /* /Menu */
+
+    .descr-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-content {
+        margin-bottom: 23px;
+    }
+
+    .footer-content__title {
+        margin-bottom: 13px;
+        font-size: 10px;
+    }
+
+    .footer-content__info {
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    .section-calories,
+    .section-contact {
+        padding: 15px;
+    }
+
+    .calories-table {
+        font-size: 16px;
+    }
+
+    .calories-table .th,
+    .tr td:first-child {
+        padding: 10px;
+    }
+
+    form {
+        width: 80%;
+    }
+}
